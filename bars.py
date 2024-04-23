@@ -10,9 +10,9 @@ color_cycle = cycle([
         colors.get('lyg'),
         colors.get('lblue'),
         colors.get('lye'),
-        colors.get('lpnk'),
+        colors.get('plum'),
         colors.get('pist'),
-        colors.get('plum')
+        colors.get('lpnk')
     ])
 
 main_background = colors.get('lblack')
