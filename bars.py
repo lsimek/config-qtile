@@ -83,7 +83,7 @@ w_sep = lambda linewidth: widget.Sep(
 #         )
 
 w_updates = widget.CheckUpdates(
-            display_format=icons.get('update', 'UPD') + '{updates}',
+            display_format=icons.get('update', 'UPD') + ' {updates}',
             custom_command='paru -Qu',
             update_interval=3600,
             no_update_string=icons.get('checkmark', ':)'),
